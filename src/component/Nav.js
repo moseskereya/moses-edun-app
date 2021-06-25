@@ -10,13 +10,12 @@ class Nav extends Component {
             <nav>
                 <div className="title">Movie App</div>
                 <ul>
-                    <Link to="/">
+                    <Link className="links" to="/">
                         <li>Home</li>
                     </Link>
-                    <Link to="/Movie">
-                        <li>Action Movies</li>
+                    <Link className="links" to="/Movie">
+                        <li>ActionMovies</li>
                     </Link>
-                    <li>Comedy</li>
                 </ul>
            </nav>
          );
